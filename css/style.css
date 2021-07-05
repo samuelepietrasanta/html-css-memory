@@ -11,6 +11,23 @@ body{
     text-align: center;
 }
 
+h1{
+    font-family: 'Chango' , cursive;
+    font-size:3em;
+    color: white;
+    text-transform: uppercase;
+}
+
+footer{
+    margin-top: 20px;
+    font-family: 'Chango', cursive;
+}
+
+p{
+    color:rgb(128, 0, 75);
+    font-weight: bold;
+}
+
 .card{
     height:180px;
     width: 150px;
@@ -19,3 +36,14 @@ body{
     display: inline-block;
     margin:20px 10px 0 0;
 }
+
+
+.image{
+    height: 80%;
+    width: 80%;
+}
+
+.relative{
+    position: relative;
+}
+
