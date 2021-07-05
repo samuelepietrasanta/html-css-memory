@@ -43,6 +43,6 @@ p{
     width: 80%;
 }
 
-div.face-down-card:hover p{
-    color: orange;
+.face-down-card:hover div{
+    display: none;
 }
