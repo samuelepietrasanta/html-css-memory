@@ -43,7 +43,6 @@ p{
     width: 80%;
 }
 
-.relative{
-    position: relative;
+div.face-down-card:hover p{
+    color: orange;
 }
-
