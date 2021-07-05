@@ -41,8 +41,37 @@ p{
 .image{
     height: 80%;
     width: 80%;
+    display: none;
+}
+
+.image-up{
+    height: 80%;
+    width:80%;
+    margin-top: 20px;
+}
+
+
+.image-text{
+    display: none;
+}
+
+.pattern{
+    background-image: url(../img/pattern.png);
+    background-size: 80%;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
 }
 
 .face-down-card:hover div{
-    display: none;
+    display:none;
+
+}
+
+.face-down-card:hover .image{
+    display: initial;
+}
+
+.face-down-card:hover .image-text{
+    display: initial;
 }
