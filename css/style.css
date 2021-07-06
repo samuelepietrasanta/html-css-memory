@@ -16,6 +16,7 @@ h1{
     font-size:3em;
     color: white;
     text-transform: uppercase;
+    text-shadow: 1.5px 1.5px 1.5px rgba(0, 0,0, 0.5);
 }
 
 footer{
@@ -24,8 +25,9 @@ footer{
 }
 
 p{
-    color:rgb(128, 0, 75);
+    color:rgb(255, 2, 150);
     font-weight: bold;
+    font-family: 'Chango' , cursive;
 }
 
 .card{
@@ -35,6 +37,9 @@ p{
     background-color: white;
     display: inline-block;
     margin:20px 10px 0 0;
+    cursor: pointer;
+    box-shadow: 1.5px 1.5px 1.5px rgba(0, 0,0, 0.5);
+    vertical-align: middle;
 }
 
 
